@@ -1,0 +1,83 @@
+@media (500px <= width <= 820px){
+    .navbar{
+        justify-content: space-between;
+        width: 100%;
+    }
+    .content,.logo1{
+        display: none;
+    }
+    .barbtn{
+        display:block;
+        font-size: 20px;
+        color: white;
+        width:50px;
+        justify-content: center;
+        display:flex;
+        align-items: center;
+    }
+    .sk{
+        height:auto;
+        flex-wrap: wrap;
+        /* background-color: brown; */
+    }
+    .intro{
+        width: 100%;
+        height:auto;
+        margin-top:60px;
+    }
+    .photo{
+          border-radius:none;
+
+    }
+    .About{
+        height: auto;   
+        flex-direction: column;
+
+    }
+    .aboutphoto{
+        width: 400px;;
+        /* margin-top:5px; */
+        /* margin-left:90px; */
+        background-size: contain;
+    }
+    .aboutText{
+        width: 100%; 
+    }
+    .Services{
+        height: auto;
+        width: 100%;
+        /* flex-direction: column; */
+    }
+    .services2{
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap:wrap;
+    }
+
+    .services4{
+        height:300px;
+        width: 250px;
+        margin-left: 5px;
+    }
+    .Project{
+        height: auto;
+        width: 100%;
+    }
+    .projectlist{
+        height: auto;
+        width:200px;
+
+    }
+    .projectdiv{
+        height: auto;
+        width: 620px;;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap:wrap;
+        margin-left: 5px;
+        gap: 5%;
+    }
+    
+}
